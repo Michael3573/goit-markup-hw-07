@@ -32,6 +32,12 @@ ul {
     text-decoration: none;
 }
 
+
+
+
+
+
+  
 /* ==============================Header================================*/
 .web-top{
 font-family: "Raleway", sans-serif;
@@ -81,11 +87,9 @@ color: var(--font-text);
 .line{
     border-bottom: 1px solid #E7E9FC;
 }
-
 .header-navigation{
     display: flex;
     align-items: center;
-/* justify-content: space-between; */
     margin-right: auto;
 }
 
@@ -320,6 +324,8 @@ textarea{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--font-text);
+    display: flex;
+    /* justify-content: center; */
 }
 
 .cards-subtext{
@@ -328,7 +334,11 @@ textarea{
     letter-spacing: 0.02em;
     color: var(--text);
     margin-top: 8px;
-    width: 264px;
+    margin-bottom: 72px;
+}
+
+.cards-subtext:last-of-type{
+    margin-bottom: 96px;
 }
 
 .cards-text{
@@ -390,11 +400,12 @@ img {
     margin-top: 72px;
 }
 
-.container {
-    width: 1158px;
+.container {  
+    max-width: 428px;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-fooer{
@@ -453,7 +464,7 @@ img {
 }
 
 .feature-list {
-    display: flex;
+    display: block;
     gap: 24px;
     justify-content: center;
 }
@@ -467,36 +478,6 @@ img {
 
 .header-conteiner {
     display: flex;
-}
-
-.list-item::before {
-    content: '';
-    display: block;
-    height: 112px;
-    background-color: #F4F4FD;
-    margin-bottom: 8px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.list-item:nth-child(1)::before {
-    content: '';
-    background-image: url("../images/antenna.svg");
-}
-
-.list-item:nth-child(2)::before {
-    content: '';
-    background-image: url("../images/clock.svg");
-}
-
-.list-item:nth-child(3)::before {
-    content: '';
-    background-image: url("../images/diagram.svg");
-}
-
-.list-item:nth-child(4)::before {
-    content: '';
-    background-image: url("../images/astronaut.svg");
 }
 
 .logo-company-partners{
@@ -780,7 +761,6 @@ fill: var(--color);
 .check__input:focus+.check__box {
     box-shadow:
         0 0 0 0.1em #4A90E2,
-        /* 0 0 0 0.2em #7ED321; */
 }
 
 /* Disabled */
@@ -919,4 +899,3 @@ fill: var(--color);
 .Subscribe{
     margin-left: 80px;
 }
-
