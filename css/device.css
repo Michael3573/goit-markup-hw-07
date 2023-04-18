@@ -1,9 +1,21 @@
   @media screen and (min-width: 428px) {
+
+.container{
+    max-width: 428px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
 .feature-subtitle{
     justify-content: center;
 }
 
-
+.section-2 {
+    display: none;
+}
 
         
     }
@@ -15,6 +27,12 @@
     max-width: 768px;  
     
     }
+.feature-subtitle{
+    justify-content: center;
+}  
+.list-item{
+    flex-basis: calc((100% - 24px) / 2);
+}
 .feature-sublist {
     display: flex;
     gap: 24px;
@@ -23,15 +41,17 @@
 .feature-list {
     display: flex;
     gap: 24px;
-}
     
+}
+ 
+   
 
 
  
 
 
       
-    }
+}
 
 
 
@@ -79,5 +99,15 @@
 .cards-subtext{
      width: 264px;
 }
+
+.section-2 {
+    display: block;
+}
+
+.feature-subtitle{
+    display: flex;
+    justify-content: center;
+}
+
 
     }

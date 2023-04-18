@@ -324,8 +324,7 @@ textarea{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--font-text);
-    display: flex;
-    /* justify-content: center; */
+    
 }
 
 .cards-subtext{
@@ -337,8 +336,12 @@ textarea{
     margin-bottom: 72px;
 }
 
-.cards-subtext:last-of-type{
-    margin-bottom: 96px;
+.cards-subtext-team{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+    margin-top: 8px;
 }
 
 .cards-text{
@@ -384,9 +387,6 @@ textarea{
     border: 1px solid #E7E9FC;
 }
 
-img {
-    display: block;
-}
 
 .box{
     width: 1158px;
@@ -400,8 +400,8 @@ img {
     margin-top: 72px;
 }
 
-.container {  
-    max-width: 428px;
+.container {
+    /* max-width: 428px; */
     padding-right: 15px;
     padding-left: 15px;
     margin-left: auto;
@@ -428,6 +428,10 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.section-2{
+    display: none;
+}   
 
 .section-3{
     padding-top: 120px;
@@ -850,6 +854,7 @@ fill: var(--color);
     list-style: none;
     gap: 24px;
     padding-top: 8px;
+    margin-bottom: 72px;
 }
 
 .social-link{
