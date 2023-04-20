@@ -104,6 +104,10 @@ color: var(--font-text);
     display: flex;
     gap: 40px;
 }
+.site-nav-contacts{
+    display: flex;
+    gap: 40px;
+}
 
 .item{
     padding-top: 25px;

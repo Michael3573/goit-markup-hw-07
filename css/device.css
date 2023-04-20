@@ -51,10 +51,18 @@
 .card-item{
     margin-bottom: 72px;
 }
-/* .card-item:last-of-type{
-    margin-bottom: 0;
-} */
-    
+.site-nav{
+    display: none;
+}
+.site-nav-contacts{
+    display: none;
+}
+.header-conteiner{
+    height: 70px;
+}
+
+
+
     }
 
 
@@ -106,10 +114,17 @@
     display: block;
     margin-left: 24px;
 }
-.footer-logo-text{
-    
+.site-nav-contacts{
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
-
+.item{
+    padding: 0;
+}
 
 
 
