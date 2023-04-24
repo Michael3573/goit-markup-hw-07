@@ -85,6 +85,10 @@
     position: absolute;
     top: 24px;
     right: 24px;
+
+    border-radius: 50%;
+    
+
 }
 .feature-subtitle{
     display: flex;
